@@ -33,3 +33,5 @@ def main(sym):
     tether = price['price']
     
     rial_price = (float(last_price)) * (float(tether))
+    
+    return jsonify(coin = coin_symbol, usd_price = last_price, irr_price = rial_price)
