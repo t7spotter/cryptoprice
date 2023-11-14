@@ -16,3 +16,8 @@ def main(sym):
         
     
     coin_symbol = captalize(sym)
+    
+    if coin_symbol in name_to_id:
+        coin_id = name_to_id[f'{coin_symbol}'] 
+    else:
+        return jsonify(message="Enter the valid coin symbol")
