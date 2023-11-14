@@ -21,3 +21,7 @@ def main(sym):
         coin_id = name_to_id[f'{coin_symbol}'] 
     else:
         return jsonify(message="Enter the valid coin symbol")
+    
+    r = requests.get(f'https://cryptobubbles.net/backend/data/charts/hour/{coin_id}/USD.json')
+    response_json = r.json()
+    last_price = (response_json[-1])['p']
