@@ -13,3 +13,6 @@ def main(sym):
             return a.upper()
         else:
             return a
+        
+    
+    coin_symbol = captalize(sym)
