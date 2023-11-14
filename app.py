@@ -7,4 +7,9 @@ app = Flask(__name__)
 
 @app.route("/<sym>")
 def main(sym):
-    pass
+    
+    def captalize(a):
+        if a.islower():
+            return a.upper()
+        else:
+            return a
