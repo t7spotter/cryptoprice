@@ -31,3 +31,5 @@ def main(sym):
     trades = o["trades"]
     price = trades[0]
     tether = price['price']
+    
+    rial_price = (float(last_price)) * (float(tether))
