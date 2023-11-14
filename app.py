@@ -25,3 +25,9 @@ def main(sym):
     r = requests.get(f'https://cryptobubbles.net/backend/data/charts/hour/{coin_id}/USD.json')
     response_json = r.json()
     last_price = (response_json[-1])['p']
+    
+    r_rial = requests.get('https://api.nobitex.ir/v2/trades/USDTIRT')
+    o = r_rial.json()
+    trades = o["trades"]
+    price = trades[0]
+    tether = price['price']
