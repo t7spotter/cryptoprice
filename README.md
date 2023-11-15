@@ -1,5 +1,7 @@
 ₿ 💲
-Real-time cryptocurrency price converter: Get the latest 💲`USD` and `IRR` value of any coin symbol instantly. Stay updated with this code snippet.
+
+Real-time cryptocurrency price converter:
+Get the latest 💲`USD` and `IRR` value of any coin symbol instantly. Stay updated with this code snippet.
 
 Real-time Cryptocurrency Price Converter This is a simple web flask app that retrieves the current 💲`USD` & `IRR` value of a given cryptocurrency symbol and returns it in `JSON` format and real-time. It allows developers and cryptocurrency enthusiasts to obtain up-to-date price data for their applications or projects.
 
