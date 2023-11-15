@@ -1,9 +1,14 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, redirect
 import requests
 
 from name_to_id import name_to_id
 
 app = Flask(__name__)
+
+
+@app.route("/")
+def landing():
+   return redirect("https://github.com/t7spotter/cryptoprice/blob/main/README.md")
 
 @app.route("/<sym>")
 def main(sym):
