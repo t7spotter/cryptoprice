@@ -9,17 +9,10 @@ Usage:
 
 To use the code, follow these steps:
 
-1. clone this repo to your local machine:
-   ```git clone https://github.com/t7spotter/cryptoprice.git```
+ Run it with Docker!
 
-2. Install the required dependencies:
-   ```pip install -r requirements.txt```
+ It will be run on your localhost and port 5000: ```http://localhost:5000```
 
-3. Run the flask app:
-   ```flask --debug -A app run```
+ for each coin or token you want to find out the real-time prices, you should add desired coin symbol at the end of the url  (```http://localhost:5000/<coin_symbol>```).
 
-It will be run on your localhost and port 5000: ```http://localhost:5000```
-
-for each coin or token you want to find out the real-time prices, you should add desired coin symbol at the end of the url  (```http://localhost:5000/<coin_symbol>```).
-
-for example you need to know the real-time ₿itcoin price, you need to input ```http://localhost:5000/btc``` in your web-browser url bar.
+ for example you need to know the real-time ₿itcoin price, you need to input ```http://localhost:5000/btc``` in your web-browser url bar.
