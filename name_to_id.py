@@ -1,4 +1,4 @@
-name_to_id2 = {
+name_to_id = {
   '$ADS': '11036',
  '1INCH': '8104',
  'AAVE': '7278',
